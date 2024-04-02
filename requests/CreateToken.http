@@ -1,0 +1,9 @@
+POST http://localhost:8080/realms/sample/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id = purple &
+client_secret = ZGw8yc2JZE54qPcOcbQv1nFXFI7CRmQh &
+grant_type = password &
+username = admin &
+password = admin &
+scope = openid
